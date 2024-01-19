@@ -10,7 +10,7 @@ public void setup()
  } 
  System.out.println(answer); 
 }
-public boolean isPrime(double dNum)  
+public static boolean isPrime(double dNum)  
 {   
     if(dNum <= 1)
   return false;
